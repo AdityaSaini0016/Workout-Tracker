@@ -1,0 +1,10 @@
+{
+  "name": "workout-tracker-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm dev",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
